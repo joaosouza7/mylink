@@ -1,7 +1,7 @@
 export default function App() {
   return(
-    <div>
-      <h1>Meu Link</h1>
+    <div className="app">
+      <h1>Mylink</h1>
     </div>
   );
 }
