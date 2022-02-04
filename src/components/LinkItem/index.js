@@ -1,6 +1,6 @@
 import './link-item.css';
 
-import { FiX, FiClipboard } from 'react-icons/fi';
+import { FiX, FiCopy } from 'react-icons/fi';
 
 export default function LinkItem({ closeModal, content }){
 
@@ -23,7 +23,7 @@ export default function LinkItem({ closeModal, content }){
 
             <button className="modal-link" onClick={copyLink}>
                 {content.link}
-                <FiClipboard size={20} color="#FFF" />
+                <FiCopy size={20} color="#FFF" />
             </button>
 
         </div>

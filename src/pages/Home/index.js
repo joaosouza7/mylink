@@ -7,6 +7,7 @@ import Menu from '../../components/Menu';
 import LinkItem from '../../components/LinkItem';
 
 import api from '../../services/api';
+import { saveLink } from '../../services/storeLinks';
 
 import './home.css';
 
@@ -24,6 +25,8 @@ export default function Home() {
 
         setData(response.data);
         setShowModal(true);
+        saveLink('@encurtaLink', response.data);
+
         setLink('');
 
       }catch{
