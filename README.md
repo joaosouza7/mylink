@@ -5,8 +5,6 @@
   <img src="https://img.shields.io/badge/version-1.0.0-informational" />
 </div>
 
-<h1 align="center">MyLink</h1>
-
 ## 💻 Sobre o projeto
 
 A Semana React JS é um evento promovido pelo [Sujeito Programador](https://sujeitoprogramador.com/), onde em cada edição há uma proposta de desenvolvimento de um projeto diferente.
