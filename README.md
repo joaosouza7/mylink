@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+<div align="center">
+  <img border="0" src="src/assets/logo.png" alt="Logo do projeto" width="150" />
+  <p align="center">🔗 Encurte seus links de forma fácil e rápida</p>
+  <img src="https://img.shields.io/github/followers/joaosouza7?style=social" />
+  <img src="https://img.shields.io/badge/version-1.0.0-informational" />
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">MyLink</h1>
 
-## Available Scripts
+## 💻 Sobre o projeto
 
-In the project directory, you can run:
+A Semana React JS é um evento promovido pelo [Sujeito Programador](https://sujeitoprogramador.com/), onde em cada edição há uma proposta de desenvolvimento de um projeto diferente.
 
-### `npm start`
+Não é preciso ter conhecimento prévio para participar, já que as aulas compreendem desde o início da criação até a finalização do projeto.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+A proposta desse projeto foi criar uma página web em que o usuário possa encurtar seus links de forma fácil e rápida com o auxílio da [API Bitly](https://dev.bitly.com/). Além disso, os dados são armazenados e mantidos no <i>local storage</i> do navegador.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## 🔎 Preview do projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="center">
+  <img alt="Preview do projeto" title="Preview do projeto" src="src/assets/preview.png" />
+</p>
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠 Tecnologias
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+As seguintes ferramentas foram utilizadas no desenvolvimento do projeto:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [ReactJS](https://reactjs.org/)
+- [Bitly API](https://dev.bitly.com/)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🚀 Como executar o projeto?
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Pré-requisitos
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node](https://nodejs.org/en). 
+Além disto é bom ter um editor para trabalhar com o código como o [VSCode](https://code.visualstudio.com/).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 🎲 Rodando a aplicação
 
-## Learn More
+```bash
+# Clone este repositório
+$ git clone https://github.com/joaosouza7/mylink
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Acesse a pasta do projeto no terminal/cmd
+$ cd mylink
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Instale as dependências do projeto
+$ yarn install
 
-### Code Splitting
+# Execute a aplicação 
+$ yarn start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# O servidor inciará na porta:3333
+# Acesse http://localhost:3333 
+```
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📝 Licença
 
-### Making a Progressive Web App
+Esse projeto está sob a licença GNU. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feito com ❤️ por João Souza | [Entre em contato!](https://www.linkedin.com/in/joaosouzadesenvolvedorweb)
